@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<div class="shoppingList">Shopping List</div>
+	<div class="Add">Add Topic:<textarea class="addedTopic" value=""></textarea></div>
+	<div class="addBudget">Add Budget:<textarea class="allocatedBudgetInput" value=""></textarea></div>
+	<button class="topicAndBudgetButton">Add</button>
+	
+	<div class="addDescriptionDiv">Product Description:<textarea class="addDescription" value=""></textarea></div>
+	<div class="addDescriptionPiceDiv">Product Price:<textarea class="addDescriptionPriceInput" value=""></textarea></div>	
+	<button class="descriptionAndPriceButton">Add</button>
+	
+	<div class="topicDiv">Topic:<span class="topic"></span></div>
+
+	<table>
+		<tr class="descriptionAndPrice">
+		<th class="description">Description</th>
+		<th class="price">Price</th>
+		</tr>
+		<td class="items"><span class="itemsSpan"></span></td>
+		<td class="itemPrices"><span class="itemPricesSpan"></span></td>
+	</table>
+	<div class="totalDiv">Total:<span class="total"></span></div>
+	<script src="shopping-list.js"></script>
+	<script src="shopping-list-dom.js"></script>
+</body>
+</html>
